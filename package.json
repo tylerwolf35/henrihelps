@@ -16,4 +16,9 @@
     "url": "https://github.com/tylerwolf35/henrihelps/issues"
   },
   "homepage": "https://github.com/tylerwolf35/henrihelps#readme"
+  "dependencies": {
+    "express",
+    "body-parser",
+    "cohere-ai"
+  }
 }
