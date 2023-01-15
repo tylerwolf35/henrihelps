@@ -37,10 +37,13 @@ h3 {
 .right {
     margin: top;
     width: 25%;
-    padding-right: 7.5%;
-    padding-top: 2%;
+    padding-right: 15%;
+    padding-left: 175px;
+    padding-top: 15%;
     text-align: center;
     display:inline-block;
+    position: absolute;
+    right: 0;
 }
 
 .center {
@@ -48,4 +51,8 @@ h3 {
     width: 50%;
     padding: 10px;
     text-align: center;
+}
+
+.github {
+    padding-top: 15%;
 }
