@@ -1,0 +1,19 @@
+{
+  "name": "henrihelps",
+  "version": "1.0.0",
+  "description": "NLP Chat Bot for Students",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerwolf35/henrihelps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerwolf35/henrihelps/issues"
+  },
+  "homepage": "https://github.com/tylerwolf35/henrihelps#readme"
+}
