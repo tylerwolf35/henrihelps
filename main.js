@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser')
 const port = 5000;
 const cohere = require('cohere-ai');
-cohere.init('cMFr8SdxRiBTGp5P7MrtuyAb9ybdNEXxELSDRi9U');
+cohere.init(process.env.API_KEY);
 var path = require('path');
 var myText;
 
