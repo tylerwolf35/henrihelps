@@ -26,10 +26,6 @@
         <div class="center">
             <h1>Henri Helps</h1>
             <h2>A Motivational Chat Bot</h2>
-            <form onsubmit="return redirect()" action="/" method="post">
-                <label form="myform">Bonjour! What may I help you with? </label>
-                <input name="mytext">
-            </form>
         </div>
             <div class="left">
                 <img src="/img/henri.png" alt="simple picture of henri">
@@ -40,10 +36,18 @@
                     members, gudiance counselors, or even your friends. People are here to help.
                 </h3>
             </div>
+            <div class="right">
+                    <form onsubmit="return redirect()" action="/" method="post">
+                        <label form="myform"><h2>What's on your mind?</h2></label>
+                        <input name="mytext">
+                    </form>
+            </div>
         <div class="center">
-            <a href="https://github.com/tylerwolf35/hackfree2023" title="github link">
-                <img src="/img/github.png" alt="github logo" width="25px" height="25px">
-            </a>
+            <div class="github">
+                <a href="https://github.com/tylerwolf35/hackfree2023" title="github link">
+                    <img src="/img/github.png" alt="github logo" width="25px" height="25px">
+                </a>
+            </div>
         </div>
     </body>
 </html>
