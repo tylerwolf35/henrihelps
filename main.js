@@ -33,7 +33,7 @@ function create() {
             temperature: 0.9,
             k: 0,
             p: 1,
-            frequency_penalty: 0.5;
+            frequency_penalty: 0.5,
             presence_penalty: 1,
             stop_sequences: ['"'],
             return_likelihoods: 'NONE'
