@@ -8,11 +8,6 @@ cohere.init('cMFr8SdxRiBTGp5P7MrtuyAb9ybdNEXxELSDRi9U');
 var path = require('path');
 var myText;
 
-const rl = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
 app.get('/', function(req, res){
     res.render('form');
  });
