@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/tylerwolf35/henrihelps#readme"
   "dependencies": {
-    "express",
-    "body-parser",
-    "cohere-ai"
+    "express": "4.18.2",
+    "body-parser": "1.20.1",
+    "cohere-ai": "5.0.2"
   }
 }
