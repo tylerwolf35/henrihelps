@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #EAE7B1;
+}
+
+#HASH {
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* Headers */
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    color: #3C6255;
+}
+
+h2 {
+    font-family: 'Rowdies', cursive;   
+    color: #61876E;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #A6BB8D;
+}
+
+.left {
+    margin: auto;
+    width: 25%;
+    padding-left: 7.5%;
+    padding-top: 2%;
+    text-align: center;
+    display:inline-block;
+}
+
+.right {
+    margin: top;
+    width: 25%;
+    padding-right: 7.5%;
+    padding-top: 2%;
+    text-align: center;
+    display:inline-block;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
